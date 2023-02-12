@@ -5,16 +5,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tab_layout"
+        android:id="@+id/tab_layout_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabIndicatorColor="#000"
-        app:tabSelectedTextColor="#000"
-        app:tabTextColor="#999"/>
+        app:tabIndicatorColor="#951D1D"
+        app:tabSelectedTextColor="@color/purple_700"
+        app:tabTextColor="#CCA9A9"/>
 
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/view_pager"
+        android:id="@+id/view_pager_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </androidx.viewpager.widget.ViewPager>

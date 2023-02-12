@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/ic_launcher_foreground">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Rechercher"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Paramètres"
+        app:showAsAction="never"/>
+
+</menu>
