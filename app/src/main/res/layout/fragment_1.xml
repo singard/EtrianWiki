@@ -2,13 +2,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
-
-
-    <TextView
+    android:orientation="horizontal">
+    <!--cardview-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Contenu du fragment 1" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

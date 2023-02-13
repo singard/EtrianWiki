@@ -1,0 +1,21 @@
+package com.ynov.projectfragment
+
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+import com.ynov.projectfragment.model.CharacterClass
+//cardview
+class PersonnageAdapter (private val personnages: List<CharacterClass>) : RecyclerView.Adapter<PersonnageViewHolder>() {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PersonnageViewHolder {
+        val view = LayoutInflater.from(parent.context)
+            .inflate(R.layout.personnage_layout, parent, false)
+        return PersonnageViewHolder(view)
+    }
+
+    override fun getItemCount(): Int = personnages.size
+
+    override fun onBindViewHolder(holder: PersonnageViewHolder, position: Int) {
+        val personnage = personnages[position]
+        holder.bind(personnage)
+    }
+}
