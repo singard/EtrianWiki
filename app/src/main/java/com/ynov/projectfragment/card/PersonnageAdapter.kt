@@ -1,8 +1,9 @@
-package com.ynov.projectfragment
+package com.ynov.projectfragment.card
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.ynov.projectfragment.R
 import com.ynov.projectfragment.model.CharacterClass
 //cardview
 class PersonnageAdapter (private val personnages: List<CharacterClass>) : RecyclerView.Adapter<PersonnageViewHolder>() {
