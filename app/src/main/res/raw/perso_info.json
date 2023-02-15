@@ -3,17 +3,20 @@
   { "name":"Alchimiste",
     "profile": "Mages accompli qui peut exploiter un ennemi élémentaire de faiblesses au maximum, dévastateur travers létale formules magiques. Avec leurs élémentaire prouesses, ils peuvent empoisonner les ennemis qui, lentement friands de leur santé jusqu'à ce qu'ils tombent et meurent. Grâce à leur connaissance avancée de l'univers de la magie, ils peuvent calculer l'emplacement des ennemis dangereux, et même le transfert de leurs camarades à la sécurité. ",
     "strengths": "Ils ont des capacités lethal élémentaire qui leur permettent d'exploiter et d'écraser les faiblesses de l'ennemi. ",
-    "weaknesses": " Faible défense et HP, les rendant terrible pour la ligne avant. Peut être difficile à utiliser dès le début en raison de la haute TP coûts sans un point de compétence de la distribution. "
+    "weaknesses": " Faible défense et HP, les rendant terrible pour la ligne avant. Peut être difficile à utiliser dès le début en raison de la haute TP coûts sans un point de compétence de la distribution.",
+    "imgId": "alchemists"
   },
   { "name":"Chasseur sombre",
     "profile": "Maîtres de la tromperie, de la Sombre Chasseur de punir leurs ennemis à se plier à leur volonté avant d'aller pour le tuer. Avec leur talent avec le fouet, ils peuvent tout à fait d'immobiliser un ennemi avant de la prendre de force de vie pour eux-mêmes. Si un Dark Hunter, décide de prendre la lame au lieu de cela, ils peuvent porter des coups à l'ennemi, les nerfs, les détruire de l'intérieur. Alors que leur pouvoir est plus que bienvenue, il s'agit de deux visage, le Dark Hunter est capable de les appâter l'ennemi fureur avec leurs propres camarades.",
     "strengths": "Méthodes Variées de l'affaiblissement décent prouesses de combat, faisant d'eux de redoutables malgré leurs défauts. Leur naturellement une grande Chance permet d'offrir de punir les coups fréquemment, avec une excellente précision grâce à leur grande Agilité. ",
-    "weaknesses": "Les Maigres défenses et relativement élevé TP coûts, leur faisant bouffer TP au cours de leurs premiers stades."
+    "weaknesses": "Les Maigres défenses et relativement élevé TP coûts, leur faisant bouffer TP au cours de leurs premiers stades.",
+    "imgId": "dark_hunter"
   },
   { "name":"Lansquenet",
     "profile": "Les puissances qui peuvent infliger des dégâts lorsque vous en avez le plus besoin, landsknechts n'ont pas peur de se précipiter dans n'importe quelle situation et obtenir leurs mains sales, peu importe combien dangereux. Leur force physique est au prix de la défense, et si vous êtes prêt à prendre un pari, certaines de leurs compétences peut faire pencher la balance encore plus loin vers la puissance brute par l'abandon de la défense entièrement. Quelques élémentaire compétences assurez-vous qu'ils peuvent terrain, même dans les combats contre magique des ennemis.",
     "strengths": "Offensive élevées, bonne durabilité.",
-    "weaknesses": "Croissance inférieure de TP, les compétences de Chaser ont besoin de coopération pour être exécuter"
+    "weaknesses": "Croissance inférieure de TP, les compétences de Chaser ont besoin de coopération pour être exécuter",
+    "imgId": "alchemists"
   }
 
 ]
