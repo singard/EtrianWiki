@@ -40,6 +40,13 @@
             android:textSize="16sp"
             android:padding="16dp"/>
 
+        <ImageView
+            android:id="@+id/imageViewJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="une description"
+            app:srcCompat="@drawable/alchemists" />
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
