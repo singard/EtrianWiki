@@ -12,7 +12,7 @@ import com.ynov.projectfragment.model.CharacterClass
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-class Fragment1: Fragment() {
+class Fragment1: Fragment(){
 
     private lateinit var personnages: List<CharacterClass>
 
@@ -46,7 +46,7 @@ class Fragment1: Fragment() {
             personnages = gson.fromJson(jsonString, Array<CharacterClass>::class.java).asList()
 
             Log.i("Fragment1", "" + personnages.size)
-//cardview
+            //cardview
             val recyclerView = view.findViewById<RecyclerView>(R.id.recycler_view)
             val adapter = PersonnageAdapter(personnages)
             recyclerView.adapter = adapter
@@ -57,4 +57,6 @@ class Fragment1: Fragment() {
         }
         return view
     }
+
+
 }
