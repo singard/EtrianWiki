@@ -1,8 +1,9 @@
-package com.ynov.projectfragment
+package com.ynov.projectfragment.card
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.ynov.projectfragment.R
 import com.ynov.projectfragment.model.CharacterClass
 //cardview
 class PersonnageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
