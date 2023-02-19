@@ -17,6 +17,41 @@
     "strengths": "Offensive élevées, bonne durabilité.",
     "weaknesses": "Croissance inférieure de TP, les compétences de Chaser ont besoin de coopération pour être exécuter",
     "imgId": "alchemists"
+  },
+  { "name":" Survivaliste ",
+    "profile": "Vif d'esprit des explorateurs qui ont des connaissances de survie en forêt permettent un avantage sur leurs ennemis. En partageant leurs secrets avec leur parti-potes, ils peuvent les aider à devenir plus difficile pour l'ennemi de la cible. En utilisant leurs connaissances, ils peuvent se déguiser, ce qui leur permet de passer inaperçus alors qu'ils se préparent à déclencher une pluie de flèches pour éliminer l'ennemi avec une absolue discrétion. ",
+    "strengths": "Dur au toucher, tout en percutant. Ils ont en moyenne de défense, mais une excellente vitesse. Ils peuvent frapper fréquemment, et de frapper plusieurs fois par tour, ce qui leur permet d'arracher les ennemis avant qu'ils aient une chance de réagir.",
+    "weaknesses": "Faible puissance de démarrage combiné avec une difficulté à obtenir leurs armes en faire une délicate de classe pour commencer avec.",
+    "imgId": "alchemists"
+  },
+  { "name":" Troubadour",
+    "profile": "Prodiges dans la voie de la chanson et de la danse, le Troubadour excelle dans le soutien de ses coéquipiers, où leurs capacités de mêlée de l'automne timide. Bien que maigre au combat, ils peuvent stimuler les divers aspects de leurs camarades de stats, et même leur accorder un accès temporaire à des dégâts élémentaires. Leur puissant de chants et de danses peut également être utilisé pour sap la force de l'ennemi, en l'écrasant de leurs élémentaire défenses dans la terre et jetant leur statut d'avantages à la poubelle.",
+    "strengths": "Puissant renforcement des capacités et de l'utile à l'affaiblissement des capacités.",
+    "weaknesses": "Médiocre mêlée capacités. Médiocre défense. Adapté pour tous les combats.",
+    "imgId": "alchemists"
+  },
+  { "name":" médecin ",
+    "profile": "Tout usage des guérisseurs pour le parti, un médecin peut annuler les dégâts infligés. Leurs compétences vont de la guérison des affections de statut, pour guérir les plaies, même pour ressusciter les morts, les membres du parti. Ils peuvent également conférer bénéfiques effets de statut, tels que HP régénération et élémentaire de la résistance. En outre, bien que leur faible défense lui fait une proposition risquée, en les mettant sur les lignes de front donne la force étonnante de toubibs une chance de montrer ce genre de dommages qu'ils peuvent faire.",
+    "strengths": " polyvalence des compétences de guérison, une bonne puissance d'attaque en cas de besoin. ",
+    "weaknesses": " Faible défense et HP.",
+    "imgId": "alchemists"
+  },
+  { "name":"Ronin",
+    "profile": "Étrangères guerriers qui possèdent supérieur capacités de combat. Ces dangereux escrimeurs peuvent utiliser diverses positions dans la bataille que chaque accorder à leurs bonus pour le Ronin. Avec une formation, ils peuvent imprégner de leur puissante frappe avec puissance élémentaire, de livrer des attaques meurtrières dans le clignotement d'un oeil.",
+    "strengths": " prouesse physique inégalée, couplé avec des coups élémentaire dangereux. Ils sont polivalent dans diverses situations, en faisant d'eux de puissants alliés.",
+    "weaknesses": "Médiocre défenses, couplé avec des Positions de prendre tout un tour pour activer, de manière efficace de ralentir leur sortie de dommages. Pas accessible jusqu'à la mi-jeu, et obtenir jusqu'à la vitesse demandera des efforts. ",
+    "imgId": "alchemists"
+  },
+  { "name":"Hexer",
+    "profile": "Comme leur mêlée homologue, le Dark Hunter , le Hexer est capable de débilitantes ennemis avec des altérations d'état. Contrairement à leurs frères, cependant, la Hexer est capable de beaucoup plus puissant de l'affaiblissement par les malédictions, allant de la force et de la défense de l'affaiblissement de puissantes malédictions à se faire des ennemis tuer les uns les autres ou même tout simplement de fixer et mourir.",
+    "strengths": "Puissant désactivation de maléfices qui détruisent les ennemis de la santé, la force, les défenses, et plus à rien. ",
+    "weaknesses": " Faible défenses de limitation de la première rangée, marqués par de médiocres capacités offensives.",
+    "imgId": "alchemists"
+  },
+  { "name":"Protecteur",
+    "profile": "Saint chevaliers qui se spécialisent dans la défense à la fois eux-mêmes et le reste de la partie. Versatile leurs défenses peuvent être appliqués à eux-mêmes, une ligne en particulier, ou de l'ensemble de la partie, la garde de ceux qui en ont le plus besoin. Pas limité à la physique des défenses, les protecteurs peuvent également se prémunir contre toutes les attaques élémentaires à l'aide de Antifire, Anticold ou Antivolt. Leur compétence avec une arme aussi redoutable et avec Frappe, les Protecteurs sont en mesure d'utiliser un dégâts des compétences qui peuvent se lier à l'ennemi les armes. Enfin, un peu de guérison de base compétences en forme de Soigner et de Guérir II compléter leur arsenal.",
+    "strengths": "Excellente défense, élevé à la puissance d'attaque, les capacités de guérison.",
+    "weaknesses": "les défenses Spécifiques sont un pari, pas d'attaques élémentaires, lent à se déplacer si pas de gardiennage.",
+    "imgId": "alchemists"
   }
-
 ]
