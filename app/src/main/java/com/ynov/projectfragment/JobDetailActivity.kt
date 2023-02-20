@@ -11,6 +11,7 @@ class JobDetailActivity : AppCompatActivity(){
     private lateinit var textViewName: TextView
     private lateinit var textViewProfile: TextView
     private lateinit var textViewStrengths: TextView
+    private lateinit var textViewWeaknesses: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +20,7 @@ class JobDetailActivity : AppCompatActivity(){
         textViewName = findViewById(R.id.textViewName)
         textViewProfile = findViewById(R.id.textViewProfil)
         textViewStrengths = findViewById(R.id.textViewStrengths)
+        textViewWeaknesses = findViewById(R.id.textViewWeaknesses)
 
         val characterClass = intent.getSerializableExtra("characterClass")
         Log.i("test",characterClass.toString())
@@ -29,6 +31,7 @@ class JobDetailActivity : AppCompatActivity(){
             textViewName.text = characterClass.name
             textViewProfile.text = characterClass.profile
             textViewStrengths.text = characterClass.strengths
+            textViewWeaknesses.text = characterClass.weaknesses
 
         } else {
             Log.w("test","not characterClass object")
