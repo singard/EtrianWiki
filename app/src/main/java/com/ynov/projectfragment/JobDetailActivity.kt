@@ -28,10 +28,10 @@ class JobDetailActivity : AppCompatActivity(){
         if (characterClass is CharacterClass) {
             val characterClass = characterClass
 
-            textViewName.text = characterClass.name
-            textViewProfile.text = characterClass.profile
-            textViewStrengths.text = characterClass.strengths
-            textViewWeaknesses.text = characterClass.weaknesses
+            textViewName.text = "   "+characterClass.name
+            textViewProfile.text = "   "+characterClass.profile
+            textViewStrengths.text = "   "+characterClass.strengths
+            textViewWeaknesses.text = "   "+characterClass.weaknesses
 
         } else {
             Log.w("test","not characterClass object")
