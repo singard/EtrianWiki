@@ -3,13 +3,13 @@
     android:icon="@drawable/ic_launcher_foreground">
 
     <item
-        android:id="@+id/action_search"
-        android:title="Rechercher"
+        android:id="@+id/action_settings"
+        android:title="Paramètres"
         app:showAsAction="never"/>
 
     <item
-        android:id="@+id/action_settings"
-        android:title="Paramètres"
+        android:id="@+id/action_about"
+        android:title="A propos du jeu"
         app:showAsAction="never"/>
 
 </menu>

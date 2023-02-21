@@ -25,9 +25,9 @@ class ViewPagerAdapter(supportFragmentManager: FragmentManager) :
 
     override fun getPageTitle(position: Int): CharSequence? {
         return when (position) {
-            0 -> "Onglet 1"
-            1 -> "Onglet 2"
-            2 -> "Onglet 3"
+            0 -> "Job"
+            1 -> "Monstres"
+            2 -> "ville"
             else -> null
         }
     }

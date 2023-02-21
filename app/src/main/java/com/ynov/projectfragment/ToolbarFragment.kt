@@ -28,8 +28,8 @@ class ToolbarFragment: Fragment() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.action_search -> {
-                Toast.makeText(context, "Rechercher sélectionné", Toast.LENGTH_SHORT).show()
+            R.id.action_about -> {
+                Toast.makeText(context, "a propos du jeux", Toast.LENGTH_SHORT).show()
                 true
             }
             R.id.action_settings -> {
