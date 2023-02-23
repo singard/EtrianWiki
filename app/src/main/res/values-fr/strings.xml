@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">projectFragment</string>
+    <string name="radioLight">mode clair</string>
+    <string name="radioDark">mode sombre</string>
+    <string name="radioAuto">Automatique</string>
+</resources>

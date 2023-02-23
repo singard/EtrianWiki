@@ -5,8 +5,35 @@
     android:layout_height="match_parent">
 
     <RadioGroup
-        android:layout_width="wrap_content"
+        android:id="@+id/radioGroupParameterTheme"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="131dp" />
+        android:layout_margin="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:checkedButton="@+id/radioButton1">
+
+        <RadioButton
+            android:id="@+id/radioLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="@string/radioLight" />
+
+        <RadioButton
+            android:id="@+id/radioDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="@string/radioDark" />
+
+        <RadioButton
+            android:id="@+id/radioAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="@string/radioAuto" />
+
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

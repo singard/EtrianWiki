@@ -1,5 +1,6 @@
 package com.ynov.projectfragment.views
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.*
 import android.widget.Toast
@@ -12,6 +13,8 @@ class ToolbarFragment: Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
+
+
     }
 
     override fun onCreateView(
@@ -31,10 +34,14 @@ class ToolbarFragment: Fragment() {
         return when (item.itemId) {
             R.id.action_about -> {
                 Toast.makeText(context, "a propos du jeux", Toast.LENGTH_SHORT).show()
+                val intent = Intent( requireContext(), ParametersActivity::class.java)
+                startActivity(intent)
                 true
             }
             R.id.action_settings -> {
                 Toast.makeText(context, "Paramètres sélectionnés", Toast.LENGTH_SHORT).show()
+                val intent = Intent( requireContext(), ParametersActivity::class.java)
+                startActivity(intent)
                 true
             }
             else -> super.onOptionsItemSelected(item)
