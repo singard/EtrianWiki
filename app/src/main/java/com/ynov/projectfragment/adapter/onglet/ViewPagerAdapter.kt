@@ -1,4 +1,4 @@
-package com.ynov.projectfragment.onglet
+package com.ynov.projectfragment.adapter.onglet
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

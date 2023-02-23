@@ -1,4 +1,4 @@
-package com.ynov.projectfragment.card
+package com.ynov.projectfragment.adapter.card
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

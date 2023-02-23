@@ -1,4 +1,4 @@
-package com.ynov.projectfragment.card
+package com.ynov.projectfragment.adapter.card
 
 import android.content.Intent
 import android.view.View

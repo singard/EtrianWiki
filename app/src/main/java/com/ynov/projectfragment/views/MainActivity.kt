@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 import com.ynov.projectfragment.R
-import com.ynov.projectfragment.onglet.ViewPagerAdapter
+import com.ynov.projectfragment.adapter.onglet.ViewPagerAdapter
 
 
 class MainActivity : AppCompatActivity() {

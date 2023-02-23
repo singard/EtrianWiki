@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.ynov.projectfragment.R
-import com.ynov.projectfragment.card.PersonnageAdapter
+import com.ynov.projectfragment.adapter.card.PersonnageAdapter
 import com.ynov.projectfragment.model.CharacterJob
 import java.io.BufferedReader
 import java.io.InputStreamReader
