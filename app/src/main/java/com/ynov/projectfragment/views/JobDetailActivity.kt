@@ -5,7 +5,7 @@ import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.ynov.projectfragment.R
-import com.ynov.projectfragment.model.CharacterClass
+import com.ynov.projectfragment.model.CharacterJob
 
 class JobDetailActivity : AppCompatActivity(){
     private lateinit var textViewName: TextView
@@ -25,7 +25,7 @@ class JobDetailActivity : AppCompatActivity(){
         val characterClass = intent.getSerializableExtra("characterClass")
         Log.i("test",characterClass.toString())
 
-        if (characterClass is CharacterClass) {
+        if (characterClass is CharacterJob) {
             val characterClass = characterClass
 
             textViewName.text = "   "+characterClass.name

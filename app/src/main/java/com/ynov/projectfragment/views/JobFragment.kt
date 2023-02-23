@@ -9,13 +9,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.ynov.projectfragment.R
 import com.ynov.projectfragment.card.PersonnageAdapter
-import com.ynov.projectfragment.model.CharacterClass
+import com.ynov.projectfragment.model.CharacterJob
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-class Fragment1: Fragment(){
+class JobFragment: Fragment(){
 
-    private lateinit var personnages: List<CharacterClass>
+    private lateinit var personnages: List<CharacterJob>
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +30,7 @@ class Fragment1: Fragment(){
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_1, container, false)
+        val view = inflater.inflate(R.layout.fragment_job, container, false)
 
         //json
         val resourceId = requireContext().resources.getIdentifier(
@@ -44,7 +44,7 @@ class Fragment1: Fragment(){
             val jsonString = reader.use { it.readText() }
 
             val gson = Gson()
-            personnages = gson.fromJson(jsonString, Array<CharacterClass>::class.java).asList()
+            personnages = gson.fromJson(jsonString, Array<CharacterJob>::class.java).asList()
 
             Log.i("Fragment1", "" + personnages.size)
             //cardview
