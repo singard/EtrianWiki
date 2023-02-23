@@ -1,9 +1,10 @@
-package com.ynov.projectfragment
+package com.ynov.projectfragment.views
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
+import com.ynov.projectfragment.R
 import com.ynov.projectfragment.onglet.ViewPagerAdapter
 
 

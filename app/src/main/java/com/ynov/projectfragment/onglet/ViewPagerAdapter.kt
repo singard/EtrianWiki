@@ -3,9 +3,9 @@ package com.ynov.projectfragment.onglet
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.ynov.projectfragment.Fragment1
-import com.ynov.projectfragment.Fragment2
-import com.ynov.projectfragment.Fragment3
+import com.ynov.projectfragment.views.Fragment1
+import com.ynov.projectfragment.views.Fragment2
+import com.ynov.projectfragment.views.Fragment3
 
 class ViewPagerAdapter(supportFragmentManager: FragmentManager) :
     FragmentPagerAdapter(supportFragmentManager) {

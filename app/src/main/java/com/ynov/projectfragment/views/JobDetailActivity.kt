@@ -1,10 +1,10 @@
-package com.ynov.projectfragment
+package com.ynov.projectfragment.views
 
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.ynov.projectfragment.R
 import com.ynov.projectfragment.model.CharacterClass
 
 class JobDetailActivity : AppCompatActivity(){

@@ -1,9 +1,10 @@
-package com.ynov.projectfragment
+package com.ynov.projectfragment.views
 
 import android.os.Bundle
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.ynov.projectfragment.R
 
 
 class ToolbarFragment: Fragment() {
