@@ -6,15 +6,22 @@ import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.ynov.projectfragment.R
+import com.ynov.projectfragment.model.ThemeManager
 
 
 class ToolbarFragment: Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        ThemeManager.themeSelect(requireContext())
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
 
 
+    }
+
+    override fun onStart() {
+        ThemeManager.themeSelect(requireContext())
+        super.onStart()
     }
 
     override fun onCreateView(

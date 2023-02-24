@@ -3,4 +3,5 @@
     <string name="radioLight">light mode</string>
     <string name="radioDark">dark mode</string>
     <string name="radioAuto">Automatic</string>
+    <string name="themeManag" translatable="false">themeManag</string>
 </resources>
