@@ -4,4 +4,7 @@
     <string name="radioLight">mode clair</string>
     <string name="radioDark">mode sombre</string>
     <string name="radioAuto">Automatique</string>
+    <string name="ajd_description">Profil</string>
+    <string name="ajd_strengh">Forces</string>
+    <string name="ajd_weaknesses">Faiblesses</string>
 </resources>

@@ -4,10 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints" />
 
 
 
@@ -21,19 +24,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary">
 
             <TextView
                 android:id="@+id/textViewName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="TextView"
+                android:text="@string/ajd_title_ex"
                 android:textSize="45sp"
+                android:textColor="?attr/colorOnPrimary"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -53,9 +59,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginHorizontal="15dp"
-                android:text="Description :"
-                android:textSize="20dp"
+                android:text="@string/ajd_description"
+                android:textSize="20sp"
                 android:textStyle="bold"
+                android:textColor="?attr/colorOnPrimary"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +75,8 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginHorizontal="10dp"
                 android:elegantTextHeight="true"
-                android:text="profffffff"
+                android:text="@string/ajd_description_ex"
+                android:textColor="?attr/colorOnPrimary"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -80,9 +88,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginHorizontal="15dp"
-                android:text="Force :"
-                android:textSize="20dp"
+                android:text="@string/ajd_strengh"
+                android:textSize="20sp"
                 android:textStyle="bold"
+                android:textColor="?attr/colorOnPrimary"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -95,7 +104,8 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginHorizontal="10dp"
                 android:elegantTextHeight="true"
-                android:text="strrrrrrrrrr"
+                android:text="@string/ajd_strengh_ex"
+                android:textColor="?attr/colorOnPrimary"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -107,8 +117,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginHorizontal="15dp"
-                android:text="Faiblesses :"
-                android:textSize="20dp"
+                android:text="@string/ajd_weaknesses"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -122,8 +133,8 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginHorizontal="10dp"
                 android:elegantTextHeight="true"
-                android:text="faibbbbbbbb"
-                tools:layout_editor_absoluteY="287dp"
+                android:text="@string/ajd_weaknesses_ex"
+                android:textColor="?attr/colorOnPrimary"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"

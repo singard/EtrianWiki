@@ -4,4 +4,11 @@
     <string name="radioDark">dark mode</string>
     <string name="radioAuto">Automatic</string>
     <string name="themeManag" translatable="false">themeManag</string>
+    <string name="ajd_title_ex" translatable="false">title</string>
+    <string name="ajd_description">Description</string>
+    <string name="ajd_strengh">Strengths</string>
+    <string name="ajd_weaknesses">Weaknesses</string>
+    <string name="ajd_description_ex" translatable="false">ajd_description_ex</string>
+    <string name="ajd_strengh_ex" translatable="false">ajd_strengh_ex</string>
+    <string name="ajd_weaknesses_ex" translatable="false">ajd_weaknesses_ex</string>
 </resources>

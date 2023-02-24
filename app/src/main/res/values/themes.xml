@@ -28,8 +28,5 @@
         <!--  <item name="windowNoTitle">true</item>-->
      </style>
 
-     <style name="Theme.QuizDevMobile.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-     <style name="Theme.QuizDevMobile.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
  </resources>
