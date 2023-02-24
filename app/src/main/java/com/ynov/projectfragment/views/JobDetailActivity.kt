@@ -5,15 +5,18 @@ import android.util.Log
 import android.view.MenuItem
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.ynov.projectfragment.R
 import com.ynov.projectfragment.model.CharacterJob
 import com.ynov.projectfragment.model.ThemeManager
+import java.security.AlgorithmConstraints
 
 class JobDetailActivity : AppCompatActivity(){
     private lateinit var textViewName: TextView
     private lateinit var textViewProfile: TextView
     private lateinit var textViewStrengths: TextView
     private lateinit var textViewWeaknesses: TextView
+    private lateinit var constraints: ConstraintLayout
 
     private var isResumedAfterOnPause = false//pour savoir si l'apli est déjà crée quand on fait un retour arrière
     private val className = this::class.simpleName
@@ -21,6 +24,9 @@ class JobDetailActivity : AppCompatActivity(){
         ThemeManager.themeSelect(this)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_job_detail)
+
+        constraints = findViewById(R.id.constraintLayoutDetailActivity)
+        constraints.setBackgroundResource(ThemeManager.imageView)
 
 
         val toolBar = ToolbarFragment()

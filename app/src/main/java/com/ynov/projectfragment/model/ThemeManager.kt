@@ -6,6 +6,7 @@ import android.content.Intent
 import android.content.res.Configuration
 import android.os.Build
 import android.util.Log
+import android.widget.ImageView
 import androidx.core.app.ActivityCompat.recreate
 import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.core.content.ContextCompat.startActivity
@@ -19,6 +20,8 @@ class ThemeManager {
 
 
         private val classeName : String = "ThemeManager"
+         var imageView : Int = 0
+
 
         fun  getActualTheme (context: Context): String? {
             val sharedPref = context.getSharedPreferences(classeName, Context.MODE_PRIVATE)
@@ -68,11 +71,13 @@ class ThemeManager {
         private fun setDarkTheme(context: Context) {
             Log.i(classeName,"dark theme install");
             context.setTheme(R.style.DarkTheme)
+            imageView = R.drawable.labyrinth_path_night
         }
 
         private fun setLightTheme(context: Context) {
             Log.i(classeName,"light theme install");
             context.setTheme(R.style.LightTheme)
+            imageView = R.drawable.labyrinth_path_light
         }
 
         private fun setAutomaticTheme(context: Context) {
@@ -84,13 +89,13 @@ class ThemeManager {
                 when (currentNightMode) {
                     Configuration.UI_MODE_NIGHT_NO -> {
                         Log.i(classeName,"light will be run");
-                        context.setTheme(R.style.LightTheme)}
+                        setLightTheme(context)}
                     Configuration.UI_MODE_NIGHT_YES -> {
                         Log.i(classeName,"dark will be run");
-                        context.setTheme(R.style.DarkTheme)}
+                        setDarkTheme(context)}
                     Configuration.UI_MODE_NIGHT_UNDEFINED -> {
                         Log.i(classeName,"undefined (light) will be run");
-                        context.setTheme(R.style.LightTheme)}
+                        setLightTheme(context)}
                 }
             } else {
                 Log.i(classeName,"default theme");

@@ -1,5 +1,6 @@
 package com.ynov.projectfragment.views
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -21,8 +22,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
+
+
         val viewPager = findViewById<ViewPager>(R.id.view_pager_main)
         viewPager.adapter = ViewPagerAdapter(supportFragmentManager)
+        viewPager.setBackgroundResource(ThemeManager.imageView)
 
         val tabLayout = findViewById<TabLayout>(R.id.tab_layout_main)
         tabLayout.setupWithViewPager(viewPager)
