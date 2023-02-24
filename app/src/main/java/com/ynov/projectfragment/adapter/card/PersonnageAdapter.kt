@@ -1,12 +1,12 @@
-package com.ynov.projectfragment.card
+package com.ynov.projectfragment.adapter.card
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ynov.projectfragment.R
-import com.ynov.projectfragment.model.CharacterClass
+import com.ynov.projectfragment.model.CharacterJob
 //cardview
-class PersonnageAdapter (private val personnages: List<CharacterClass>) : RecyclerView.Adapter<PersonnageViewHolder>() {
+class PersonnageAdapter (private val personnages: List<CharacterJob>) : RecyclerView.Adapter<PersonnageViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PersonnageViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.personnage_layout, parent, false)

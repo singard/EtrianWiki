@@ -1,21 +1,21 @@
-package com.ynov.projectfragment.onglet
+package com.ynov.projectfragment.adapter.onglet
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.ynov.projectfragment.Fragment1
-import com.ynov.projectfragment.Fragment2
-import com.ynov.projectfragment.Fragment3
+import com.ynov.projectfragment.views.JobFragment
+import com.ynov.projectfragment.views.Fragment2
+import com.ynov.projectfragment.views.Fragment3
 
 class ViewPagerAdapter(supportFragmentManager: FragmentManager) :
     FragmentPagerAdapter(supportFragmentManager) {
 
     override fun getItem(position: Int): Fragment {
         return when (position) {
-            0 -> Fragment1()
+            0 -> JobFragment()
             1 -> Fragment2()
             2 -> Fragment3()
-            else -> Fragment1()
+            else -> JobFragment()
         }
     }
 
@@ -25,9 +25,9 @@ class ViewPagerAdapter(supportFragmentManager: FragmentManager) :
 
     override fun getPageTitle(position: Int): CharSequence? {
         return when (position) {
-            0 -> "Onglet 1"
-            1 -> "Onglet 2"
-            2 -> "Onglet 3"
+            0 -> "Job"
+            1 -> "Monstres"
+            2 -> "ville"
             else -> null
         }
     }
