@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">projectFragment</string>
+    <string name="app_name">Etrian Wiki</string>
     <string name="radioLight">light mode</string>
     <string name="radioDark">dark mode</string>
     <string name="radioAuto">Automatic</string>
@@ -11,4 +11,6 @@
     <string name="ajd_description_ex" translatable="false">ajd_description_ex</string>
     <string name="ajd_strengh_ex" translatable="false">ajd_strengh_ex</string>
     <string name="ajd_weaknesses_ex" translatable="false">ajd_weaknesses_ex</string>
+    <string name="etrian_desc">Etrian Odyssey is a dungeon crawler with RPG look. First game in the series. It was released in 2007 in Japan and America for the Nintendo DS. It will be necessary to wait until the following year, in 2008, in the PAL regions including Europe. One of the few games in the series with a French translation.</string>
+    <string name="etrian_hist">Etrian Odyssey takes place in Etria, a small village on the outskirts of the legendary Labyrinth of Yggdrasil. The player can form a guild of 30 heroes and choose from them 5 adventurers to form a group that will discover the maze. When exploring an area, it\'s up to you to draw the contours of the map of places using the stylus and touch screen.</string>
 </resources>

@@ -65,8 +65,6 @@ class JobDetailActivity : AppCompatActivity(){
     }
     public override fun onResume() {
         Log.i(className,"onResume")
-        // ThemeManager.majTheme(this,this)
-        //ThemeManager.themeSelect(this)
         super.onResume()
         if (isResumedAfterOnPause) {
             Log.i("","onResume retour")
