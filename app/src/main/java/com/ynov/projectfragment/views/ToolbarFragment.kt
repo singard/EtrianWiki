@@ -41,7 +41,7 @@ class ToolbarFragment: Fragment() {
         return when (item.itemId) {
             R.id.action_about -> {
                 Toast.makeText(context, "a propos du jeux", Toast.LENGTH_SHORT).show()
-                val intent = Intent( requireContext(), ParametersActivity::class.java)
+                val intent = Intent( requireContext(), AboutActivity::class.java)
                 startActivity(intent)
                 true
             }
