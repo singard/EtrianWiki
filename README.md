@@ -17,4 +17,3 @@ projet test sur android studio pour tester diverses techniques. Devenue un vrai 
 
 - splash screen de démarrage de l'application
 - Cardview adaptative
-- Correction des descriptions
