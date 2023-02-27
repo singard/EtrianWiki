@@ -40,7 +40,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="titre"
+            android:text="@string/ajd_title_ex"
             android:textSize="45sp"
             android:textColor="?attr/colorOnPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
