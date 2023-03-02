@@ -12,8 +12,9 @@ projet test sur android studio pour tester diverses techniques. Devenue un vrai 
 - couleur changée avec des thèmes, sombre et claire plus un thème automatique au téléphone
 - changement d'une image en arrière-plan qui s'adapte au thème choisi 
 - logo personnaliser
+- splash screen de démarrage de l'application
 
 # À rajouter :
 
-- splash screen de démarrage de l'application
+
 - Cardview adaptative
