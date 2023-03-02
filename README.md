@@ -21,8 +21,7 @@ projet test sur android studio pour tester diverses techniques. Devenue un vrai 
 
 ![Screenshot_20230226-151836-014](https://user-images.githubusercontent.com/77006808/222380883-3b1e960d-1898-41e9-98c5-dc34051219ea.png)
 
+<img src="https://user-images.githubusercontent.com/77006808/222380919-10d00de9-fc20-47da-830e-3d794dcfd1a6.png" width=30% height=30%> <img src="https://user-images.githubusercontent.com/77006808/222380929-4c8ab2e0-66fc-42d9-8630-2b5a41aeb42a.png" width=30% height=30%>
 
-![Screenshot_20230302-095304](https://user-images.githubusercontent.com/77006808/222380919-10d00de9-fc20-47da-830e-3d794dcfd1a6.png) {float:right;width:25%;} ![Screenshot_20230302-095332](https://user-images.githubusercontent.com/77006808/222380929-4c8ab2e0-66fc-42d9-8630-2b5a41aeb42a.png){float:right;width:25%;}
-
-![Screenshot_20230302-095327](https://user-images.githubusercontent.com/77006808/222380926-40ea2556-3128-44b8-959e-31ebd6834f7e.png)
+<img src="https://user-images.githubusercontent.com/77006808/222380926-40ea2556-3128-44b8-959e-31ebd6834f7e.png" width=30% height=30%>
 
