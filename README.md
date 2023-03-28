@@ -1,5 +1,5 @@
 # Etrian Wiki
-projet test sur android studio pour tester diverses techniques. Devenue un vrai projet, un wiki sur le jeu Etrian odyssey premier du nom.
+projet personel sur android studio pour tester diverses techniques. Devenue un vrai projet, un wiki sur le jeu Etrian odyssey premier du nom.
 
 # Chose faite sur le projet :
 
